@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Fashion & Design</title>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+
+    <script src="js/main.js"></script>
+
+    <!--------------   Google  Fonts   -------------->
+
+
+
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Oswald&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher&family=Playfair+Display+SC:ital,wght@0,400;1,900&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Roboto&family=Slabo+27px&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Arimo&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $(".btn").click(function() {
+                $(".input").toggleClass("active");
+                $(this).toggleClass("animate");
+            });
+        });
+
+        $(window).scroll(function() {
+            var sc = $(window).scrollTop();
+            if (sc > 100) {
+                $(".menu").addClass("sticky");
+            } else {
+                $(".menu").removeClass("sticky");
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+    <header>
+        <div class="menu">
+
+            <!------LOGO------->
+
+            <div class="leftmenu">
+                <a href="#" class="logo"><img src="img/Faizi logo.png" alt=""></a>
+            </div>
+
+            <!----------NAVIGATION BAR---------->
+
+            <div class="centermenu">
+                <ul>
+                    <li><a href="" id="div">HOME</a></li>
+                    <li><a href="">RENT A DRESS</a></li>
+                    <li><a href="">FIND A DRESS</a></li>
+                    <li><a href="">OCCASION</a></li>
+                    <li><a href="">WHAT'S NEW</a></li>
+                    <li><a href="">FEATURES</a></li>
+                    <li><a href="">CONTACTS</a></li>
+
+                </ul>
+            </div>
+
+            <!-------------------Search Bar----------------->
+
+            <div class="wrapper">
+                <div class="search-box">
+                    <input type="text" class="input" placeholder="Search">
+                    <div class="btn">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-----------Image Slides----------->
+
+    <div class="slider">
+        <div class="sliderchild">
+            <div class="imgcon">
+                <h4>HEADING FORTH</h4>
+                <span></span>
+                <h1>RENT A DRESSES</h1>
+                <a href="">FIND YOUR DRESS</a>
+            </div>
+            <div class="imgcon">
+                <h4>HEADING FORTH</h4>
+                <span></span>
+                <h1>RENT A DRESSES</h1>
+                <a href="">FIND YOUR DRESS</a>
+            </div>
+            <div class="imgcon">
+                <h4>HEADING FORTH</h4>
+                <span></span>
+                <h1>RENT A DRESSES</h1>
+                <a href="">FIND YOUR DRESS</a>
+            </div>
+            <div class="imgcon">
+                <h4>HEADING FORTH</h4>
+                <span></span>
+                <h1>RENT A DRESSES</h1>
+                <a href="">FIND YOUR DRESS</a>
+            </div>
+            <div class="imgcon">
+                <h4>HEADING FORTH</h4>
+                <span></span>
+                <h1>RENT A DRESSES</h1>
+                <a href="">FIND YOUR DRESS</a>
+            </div>
+        </div>
+
+    </div>
+
+    <!------ socail Icons ------>
+
+    <div class="icons">
+        <ul>
+            <li><a href=""><i class="fa fa-facebook-f"></a></i>
+            </li>
+            <li><a href=""><i class="fa fa-twitter"></i></a></li>
+            <li><a href=""><i class="fa fa-instagram"></i></a></li>
+            <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+            <li><a href=""><i class="fa fa-pinterest"></i></a></li>
+        </ul>
+    </div>
+
+    <!-- Icons Closed -->
+
+    <div class="head">
+        <!-- Class means heading--->
+        <div></div>
+        <h5> RENT A DRESS</h5>
+        <h1>Welcome To Dress <br> Rental Service</h1>
+    </div>
+    <div id="wrapper">
+
+        <div class="container1">
+            <div class="imgbox">
+                <img src="img/image1.jpg" alt="">
+            </div>
+            <div class="content1">
+                <h1>Dresses</h1>
+                <p>Looking to hire the gorgeous designer dress? Find your favorite one.</p>
+                <a href="">LEARN MORE</a>
+            </div>
+        </div>
+
+
+
+        <div class="container2">
+            <div class="imgbox">
+                <div class="content2">
+                    <h1>Accessories</h1>
+                    <p>Hire accessories that complement your dress rental.</p>
+                    <a href="">LEARN MORE</a>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="container3">
+            <div class="imgbox">
+                <img src="img/image3.jpg" alt="">
+            </div>
+            <div class="content3">
+                <h1>Handbags</h1>
+                <p>Are youo watching a perfect clutch or handbags.</p>
+                <a href="">LEARN MORE</a>
+            </div>
+        </div>
+
+
+        <div class="container4">
+            <div class="imgbox">
+                <img src="img/image4.png" alt="">
+            </div>
+            <div class="content4">
+                <h1>Desgner Clothing</h1>
+                <p>Fing a perfect designer clothing for all amazing occassions this season</p>
+                <a href="">LEARN MORE</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- contact Portion -->
+
+
+    <div class="contact">
+        <div class="contact-img">
+            <img src="img/girl1.png" alt="">
+        </div>
+        <div class="info">
+            <div></div>
+            <h5>ASK A STYLE</h5>
+            <h1>Great Look <br> With Our <br> Stylist</h1>
+            <p>If you don’t know what to wear and need some styling <br> advice you have an opportunity to book an appointment <br> with one of our stylists.</p>
+            <input type="text" placeholder="Enter your e-mail">
+            <a href="" class="ctnbtn">CONTACT US</a> <br>
+            <input type="checkbox" name="I have read and agree to the terms & conditions" id=""><a href=""> I have read and agree to the terms & conditions</a>
+        </div>
+    </div>
+
+
+    <div class="headee">
+        <!-- Class means heading--->
+        <div></div>
+        <h5> FOR ANY OCCASION</h5>
+        <h1>Find Gorgeous Dress
+            <br> For Any Occasions </h1>
+        <a href="">VIEW ALL DRESSES</a>
+    </div>
+
+
+
+</body>
+
+</html>
+
+<!-------------#32abbb--- Color Name---------->
+<!------------- #007d8e --- Color Name---------->
+<!--------#626262---------->
+<!--------rgb(51, 162, 177)---------->

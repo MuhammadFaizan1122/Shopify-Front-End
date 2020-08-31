@@ -1,0 +1,113 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    overflow: hidden;
+
+
+}
+.slider{
+    height: 600px;
+    width: 90%;
+    border: 2px solid black;
+    margin-top: 40px;
+    border-radius: 30px;
+    margin-left: 40px;
+}
+.sliderchild{
+    height: 600px;
+    width: 7500px;
+    animation: slider infinite 30s 2s;
+    
+}
+.imgcon{
+    height: 600px;
+    width: 20%;
+    background-color: gray;
+    float: left;
+}
+.imgcon:nth-child(1){
+    background-image: url('img/slide1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imgcon:nth-child(2){
+    background-image: url('img/st.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imgcon:nth-child(3){
+    background-image: url('img/slide3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imgcon:nth-child(4){
+    background-image: url('img/slidee.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imgcon:nth-child(5){
+    background-image: url('img/slide1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@keyframes slider{
+    12.5%{
+        margin-left: -1500px;
+    }
+    25%{
+        margin-left: -1500px;
+    }
+    37.5%{
+        margin-left: -3000px;
+    }
+    50%{
+        margin-left: -3000px;
+    }
+    62.5%{
+        margin-left: -4500px;
+    }
+    75%{
+        margin-left: -4500px;
+    }
+    87.5%{
+        margin-left: -6000px;
+    }
+    100%{
+        margin-left: -6000px;
+    }
+}
+.imgcon h4{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    margin-top: 230px;
+    margin-left: 550px;
+    margin-bottom: 25px;
+}
+.imgcon h1{
+    margin-left: 280px;
+    font-size:80px;
+    font-family: 'Slabo ', serif;
+    margin-bottom: 50px;
+}
+.imgcon a{
+    text-decoration: none;
+    color: #20cc79;
+    border: 2px solid #20cc79;
+    padding: 20px 20px; 
+    border-radius: 6px;
+    margin-left: 520px;
+}
+.imgcon a:hover{
+    color:white;
+    background-color: #20cc79;
+    transition: all 0.8s ease;
+}
+
+
+
+
+
+
+
